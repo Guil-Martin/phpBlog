@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /phpblog
+RewriteCond $1 !^(index\.php|assets/images|assets/css|assets/sass|assets/js|assets/fonts|assets/favicon|robots\.txt)
+RewriteRule ^(.+) index.php?url=$l [QSA,L]

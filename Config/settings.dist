@@ -1,0 +1,13 @@
+<?php
+
+define('NEWS_PER_PAGE', 10);
+define('NEWS_IMAGE_W', 1280);
+define('NEWS_IMAGE_H', 853);
+
+
+//// DB -- Dist changes
+define('ADB_HOST', '');
+define('ADB_NAME', '');
+define('ADB_USER', '');
+define('ADB_PASS', '');
+//// -- Dist changes
